@@ -17,7 +17,6 @@ const Navbar = () => {
     <nav className="absolute top-0 left-0 w-full z-50 py-5 px-12 bg-transparent border-b-[1px] border-gray-400 ">
       <div className="container mx-auto flex justify-between items-center">
         
-        {/* --- 1. LOGO SECTION --- */}
         <Link href="/">
           <div className="cursor-pointer"> 
             <Image 
@@ -51,7 +50,6 @@ const Navbar = () => {
               Call us now
             </span>
             <div className="bg-yellow-400 p-3 rounded-full flex items-center justify-center">
-              {/* Requires 'npm install lucide-react' */}
               <PhoneCall size={17} className="text-black " />
             </div>
           </button>

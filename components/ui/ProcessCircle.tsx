@@ -9,7 +9,7 @@ const ProcessCircle = ({ id, title, iconSrc, isHighlighted = false }: { id: stri
  
       <div className="relative">
     
-        <div className="absolute -top-2 -left-4 w-10 h-10 rounded-full border-2 border-yellow-400 bg-black flex items-center justify-center text-white font-medium text-sm z-20">
+        <div className="absolute top-1/3 -translate-y-1 -left-6 w-12 h-12 rounded-full border-2 border-yellow-400 bg-black flex items-center justify-center text-white font-medium text-sm z-20">
           {id}
         </div>
 

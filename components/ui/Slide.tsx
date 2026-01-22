@@ -11,7 +11,7 @@ export default function Slide() {
 
       <div className="flex w-full max-w-[1500px] h-[400px] md:h-[400px] px-4 md:px-0 gap-4 md:gap-6 items-center justify-center">
         
-        {/* --- LEFT CARD (Side View) --- */}
+       
         <div className="relative h-full w-[15%] md:w-[15%] rounded-r-[40px] overflow-hidden opacity-100">
           <Image
             src="/slide1.jpg" 
@@ -21,7 +21,6 @@ export default function Slide() {
           />
         </div>
 
-        {/* --- CENTER CARD (Main View) --- */}
         <div className="relative h-full w-[70%] md:w-[65%] rounded-[40px] overflow-hidden shadow-2xl">
           <Image
             src="/slide2.jpg" 
@@ -31,13 +30,10 @@ export default function Slide() {
             priority
           />
 
-          {/* Overlay Gradient & Content */}
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent flex flex-col justify-end pb-12 px-8 md:px-16">
             
-            {/* Content Container */}
             <div className="relative flex items-end justify-center w-full">
                
-               {/* Text Content (Centered) */}
                <div className="flex flex-col items-center text-center max-w-3xl mx-auto px-4">
                  <h3 className="text-white text-3xl md:text-4xl font-medium mb-4 drop-shadow-lg">
                    School uniforms
@@ -48,7 +44,6 @@ export default function Slide() {
                  </p>
                </div>
 
-               {/* Button (Positioned Absolute Right) */}
                <button className="absolute right-[-19px] bottom-10 bg-yellow-400 p-4 md:p-2 rounded-full hover:bg-yellow-300 transition-transform hover:scale-110 shadow-lg flex-shrink-0">
                  <ChevronRight size={28} className="text-black" />
                </button>
@@ -58,7 +53,6 @@ export default function Slide() {
           </div>
         </div>
 
-        {/* --- RIGHT CARD (Side View) --- */}
         <div className="relative h-full w-[15%] md:w-[15%] rounded-l-[40px] overflow-hidden opacity-100">
           <Image
             src="/slide3.jpg" 

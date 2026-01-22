@@ -24,7 +24,6 @@ export default function Home() {
             className="object-cover"
             priority
           />
-          {/* Dark Overlay */}
           <div className="absolute inset-0 bg-black/50" />
         </div>
 
@@ -35,21 +34,21 @@ export default function Home() {
         </div>
 
      
-        <div className="relative z-20 flex flex-col items-center justify-center px-4 text-center -mt-20">
-          <p className="text-yellow-100 text-2xl md:text-5xl lg:text-4xl font-normal max-w-5xl leading-tight drop-shadow-lg">
-            Your trusted partner in fashion,<br className="hidden md:block" /> 
-            from classrooms to careers
+        <div className="relative z-20 flex flex-col items-center justify-center px-4 text-center -mt-30">
+          <p className="text-yellow-100 text-2xl md:text-5xl lg:text-4xl font-normal max-w-5xl  drop-shadow-lg">
+            Your trusted partner in fashion,from <br className="hidden md:block" /> 
+            classrooms to careers
           </p>
         </div>
 
       
-        <div className="absolute bottom-0 left-0 w-full z-30 leading-[0] transform translate-y-1/2">
+        <div className="absolute bottom-1 left-0 w-full z-30 leading-[0] transform translate-y-1/2">
           <Image 
             src="/tap.svg" 
             alt="Measuring Tape"
             width={1920} 
             height={120}
-            className="w-full h-auto object-cover min-h-[60px]" 
+            className="w-full h-auto object-cover min-h-[78px]" 
           />
         </div>
 
@@ -58,14 +57,12 @@ export default function Home() {
       
       <div className="relative bg-white w-full z-20 pt-24 pb-10 px-6 flex flex-col items-center text-center">
         
-        {/* Text Content */}
         <p className="max-w-4xl text-black text-lg md:text-2xl leading-relaxed font-medium mb-10">
           At Elvira, we don’t just make clothes we craft attire that inspires confidence and 
           comfort. With you in every chapter, our collections celebrate 
           each milestone of your journey.
         </p>
 
-        {/* 'Read More' Button */}
         <button className="flex items-center gap-4 bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-all group">
           <span className="text-lg">Read more</span>
           <div className="bg-yellow-400 p-2 rounded-full text-black group-hover:scale-110 transition-transform">
@@ -73,7 +70,6 @@ export default function Home() {
           </div>
         </button>
 
-        {/* Bottom Link with Icon */}
         <div className="mt-19 flex items-center gap-2 text-yellow-600 cursor-pointer hover:text-yellow-700 transition">
           <Sparkles size={20} />
           <span className="text-lg font-medium">More from this categories</span>

@@ -13,20 +13,19 @@ const SecondLast = () => {
     
           <div className="flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-black" />
-            <span className="text-black text-sm font-medium uppercase tracking-wider">Our ideology</span>
+            <span className="text-black text-sm font-medium  tracking-wider">Our ideology</span>
           </div>
 
          
-          <h2 className="text-2xl md:text-3xl font-bold text-black leading-tight">
-            At Paruthis Uniforms our ideology is simple: every thread carries a promise. 
+          <h2 className="text-2xl md:text-xl font-normal text-black leading-tight">
+           At Paruthis Uniforms our ideology is simple every
+thread carries a promise. We design and deliver
+uniforms that do three things — respect the wearer,
+represent the institution, and reduce environmental
+impact.
           </h2>
 
-          <p className="text-gray-500 text-base md:text-lg leading-relaxed max-w-xl">
-            We design and deliver uniforms that do three things – respect the wearer, 
-            represent the institution, and reduce environmental impact.
-          </p>
-
-          <p className="text-gray-400 text-sm md:text-base leading-relaxed max-w-xl">
+          <p className="text-gray-700 text-sm md:text-sm font-light  leading-relaxed max-w-xl">
             We envision a future where every uniform we create not only enhances identity and 
             confidence but also reflects a commitment to comfort, durability, and responsibility 
             towards our people and the planet.

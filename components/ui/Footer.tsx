@@ -6,7 +6,6 @@ import { Instagram, Facebook, Linkedin, Twitter } from 'lucide-react';
 export default function Footer() {
   return (
     <div className="relative w-full bg-white font-sans">
-      {/* Changed pt-48 to pt-16 to remove the huge unwanted top space */}
       <footer className="relative w-full bg-black pt-16 pb-0 mt-0 overflow-hidden">
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20 text-white">
@@ -49,7 +48,6 @@ export default function Footer() {
               </ul>
            </div>
 
-           {/* COLUMN 3: Products */}
            <div className="pt-4">
               <h4 className="text-2xl font-medium mb-6">Products</h4>
               <ul className="space-y-4 text-gray-300 text-base">
@@ -59,7 +57,6 @@ export default function Footer() {
               </ul>
            </div>
 
-           {/* COLUMN 4: Location */}
            <div className="pt-4">
               <h4 className="text-2xl font-medium mb-6">Location</h4>
               <div className="space-y-6 text-gray-300 text-sm leading-relaxed">
@@ -80,7 +77,6 @@ export default function Footer() {
           
         </div>
         
-        {/* --- BOTTOM: Big Elvira SVG --- */}
         <div className="relative w-full flex justify-center items-end leading-[0]">
            <div className="w-full max-w-[90%] md:max-w-full border-t-1 border-gray-900">
              <Image

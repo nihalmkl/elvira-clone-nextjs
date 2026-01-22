@@ -12,7 +12,7 @@ export default function VisionSection() {
            src="/tap.svg" 
            alt="Background Tape"
            fill
-           className="object-contain rotate-[35deg]"
+           className="object-contain rotate-[28deg]"
          />
       </div>
 
@@ -21,9 +21,7 @@ export default function VisionSection() {
       
         <div className="relative h-[500px] w-full">
            
-           
-
-           {/* --- Back Image (Factory) --- */}
+       
            <div className="absolute top-0 left-0 w-[65%] h-[400px] rounded-[30px] overflow-hidden shadow-lg z-10">
              <Image
                src="/vision1.png" 
@@ -33,7 +31,7 @@ export default function VisionSection() {
              />
            </div>
 
-           {/* --- Front Image (Fabric) --- */}
+           
            <div className="absolute bottom-0 right-0 w-[65%] h-[300px] rounded-[30px] overflow-hidden shadow-2xl z-20 border-[1px] border-white">
              <Image
                src="/vision2.png" 
@@ -47,21 +45,21 @@ export default function VisionSection() {
   
         <div className="flex flex-col justify-center space-y-6">
            
-           {/* Tagline */}
+       
            <div className="flex items-center gap-2">
              <Sparkles className="w-5 h-5 text-black" />
              <span className="text-black text-base font-medium">Our vision</span>
            </div>
 
-           <h2 className="text-2xl md:text-3xl lg:text-[20px] font-medium text-black leading-[1.3]">
+           <h2 className="text-2xl md:text-3xl lg:text-xl font-normal text-black leading-[1.3]">
              Our vision is to be the most trusted one-stop solution for all garment needs, 
              bringing fabric, d together under one roof. We strive to 
              deliver innovation, quality, and value with every order, making the process
            </h2>
 
-           {/* Subtext - Gray & Smaller */}
+        
            <div className="pt-2 border-l-2 border-gray-200 pl-6">
-             <p className="text-gray-500 text-sm md:text-base leading-relaxed max-w-lg">
+             <p className="text-gray-700 text-sm md:text-sm font-light leading-relaxed max-w-lg">
                seamless for our customers. Our goal is to build long-lasting relationships by 
                consistently exceeding expectations
              </p>

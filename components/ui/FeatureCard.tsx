@@ -37,7 +37,6 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, iconSrc, 
         </h3>
       </div>
 
-      {/* Description below */}
       <div className="flex flex-col">
         <p className={`text-[11px] leading-[1.5] ${isHighlight ? 'text-black/90' : 'text-gray-700'}`}>
           {description}

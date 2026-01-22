@@ -34,7 +34,6 @@ export default function DarkSection() {
   return (
     <section className="w-full bg-black py-24 px-6 md:px-16">
       
-      {/* --- Section Header --- */}
       <div className="flex flex-col items-center text-center mb-20 space-y-6">
         <div className="flex items-center gap-2 text-yellow-400">
           <Sparkles className="w-5 h-5" />
@@ -53,7 +52,7 @@ export default function DarkSection() {
             <ProcessCircle {...step} />
             
             {index < steps.length - 1 && (
-              <div className="hidden md:block flex-grow h-px border-t-2 border-dashed border-yellow-400/50 mx-4 relative top-[-30px] z-0"></div>
+              <div className="hidden md:block flex-grow h-px border-t-2 border-dashed  border-yellow-400/50 mx-4 relative top-[-30px] z-0"></div>
             )}
 
           </React.Fragment>
@@ -61,7 +60,6 @@ export default function DarkSection() {
 
       </div>
 
-      {/* --- Bottom Button --- */}
       <div className="flex justify-center mt-20">
         <button className="flex items-center gap-2 bg-white pl-6 pr-2 py-2 rounded-full hover:bg-gray-100 transition-all group">
           <span className="text-black font-normal text-md">Read More</span>

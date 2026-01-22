@@ -1,5 +1,5 @@
 'use client'
-import React from 'react';
+
 import Image from 'next/image';
 
 const LastSection = () => {
@@ -7,32 +7,32 @@ const LastSection = () => {
     <section className="relative w-full bg-white pt-15 font-sans">
     
       <div className="relative z-20 max-w-4xl mx-auto px-4">
-        <div className="bg-[#FACC15] rounded-[40px] md:rounded-[60px] p-8 md:p-16 shadow-xl flex flex-col justify-between min-h-[250px]">
+        <div className="bg-[#FACC15] rounded-[40px] md:rounded-[60px] p-8 md:p-10 shadow-xl flex flex-col justify-between min-h-[230px]">
            
            {/* Top Content */}
            <div className="mb-8">
-             <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
+             <h2 className="text-2xl md:text-3xl font-normal text-black mb-4">
                Contact Paruthis Ltd Today..!
              </h2>
-             <p className="text-black/80 text-sm md:text-base max-w-2xl leading-relaxed font-medium">
+             <p className="text-black/80 text-sm md:text-sm max-w-2xl leading-relaxed font-light">
                We believe uniforms do more than cover – they connect people to purpose, protect dignity, and reflect responsibility.
              </p>
            </div>
 
-           {/* Input & Button Row */}
+           
            <div className="flex flex-col md:flex-row gap-3 items-center w-full">
              
-             {/* Email Input */}
+             
              <div className="relative w-full md:flex-1">
                <input 
                  type="email" 
                  placeholder="Please enter the mail address" 
-                 className="w-full bg-black text-white placeholder-gray-500 rounded-full py-4 px-8 outline-none focus:ring-2 focus:ring-yellow-400/50 h-14 md:h-16"
+                 className="w-full bg-black text-white placeholder-gray-500 rounded-full py-2 px-9 outline-none focus:ring-2 focus:ring-yellow-400/50 h-14 md:h-16"
                />
              </div>
 
-             {/* Send Mail Button */}
-             <button className="w-full md:w-auto bg-white text-black font-bold rounded-full py-4 px-10 hover:bg-gray-100 transition-all h-14 md:h-16 whitespace-nowrap shadow-md active:scale-95">
+             
+             <button className="w-full md:w-auto bg-white text-black font-normal rounded-full py-2 px-10 hover:bg-gray-100 transition-all h-14 md:h-16 whitespace-nowrap shadow-md active:scale-95">
                Send mail
              </button>
 
