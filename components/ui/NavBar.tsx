@@ -31,11 +31,11 @@ const Navbar = () => {
         </Link>
 
   
-        <div className="hidden lg:flex items-center space-x-8">
+        <div className="hidden lg:flex items-center space-x-11">
           {navLinks.map((link) => (
             <div 
               key={link.name} 
-              className={`text-sm font-medium cursor-pointer transition-colors ${
+              className={`text-md font-thin cursor-pointer transition-colors ${
                 link.isYellow ? 'text-yellow-400' : 'text-white hover:text-yellow-400'
               }`}
             >
