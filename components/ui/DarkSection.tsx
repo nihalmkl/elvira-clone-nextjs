@@ -14,7 +14,7 @@ const steps = [
     id: '02',
     title: 'Own Production Unit',
     iconSrc: '/wheel.svg',
-    isHighlighted: true, 
+   
   },
   {
     id: '03',
@@ -44,7 +44,7 @@ export default function DarkSection() {
         </h2>
       </div>
 
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 md:gap-4 relative">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 md:gap-1 relative">
         
         {steps.map((step, index) => (
           <React.Fragment key={step.id}>
@@ -52,7 +52,7 @@ export default function DarkSection() {
             <ProcessCircle {...step} />
             
             {index < steps.length - 1 && (
-              <div className="hidden md:block flex-grow h-px border-t-2 border-dashed  border-yellow-400/50 mx-4 relative top-[-30px] z-0"></div>
+              <div className="hidden md:block flex-grow h-px border-t-2 border-dashed  border-yellow-400/50 mx-0 relative top-[-30px] z-0"></div>
             )}
 
           </React.Fragment>
