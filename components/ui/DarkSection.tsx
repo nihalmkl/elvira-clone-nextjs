@@ -41,7 +41,7 @@ export default function DarkSection() {
           <Sparkles className="w-5 h-5" />
           <span className="text-lg font-medium">What's our infrastructure</span>
         </div>
-        <h2 className="text-3xl md:text-4xl lg:text-4xl font-medium text-white max-w-4xl leading-tight">
+        <h2 className="text-3xl md:text-3xl  font-medium text-white max-w-4xl leading-tight">
           Our vertically integrated setup gives us complete control over every stage from design to final packing
         </h2>
       </div>
