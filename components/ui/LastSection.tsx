@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 const LastSection = () => {
   return (
-    <section className="relative w-full bg-white pt-15 font-sans">
+    <section className="relative w-full bg-white pt-15 font-sans m-0">
     
-      <div className="relative z-20 max-w-4xl mx-auto px-4">
+      <div className="relative z-20 max-w-4xl mx-auto px-4 m-0">
         <div className="bg-[#FACC15] rounded-[40px] md:rounded-[60px] p-8 md:p-10 shadow-xl flex flex-col justify-between min-h-[230px]">
            
            {/* Top Content */}
@@ -32,7 +32,7 @@ const LastSection = () => {
              </div>
 
              
-             <button className="w-full md:w-auto bg-white text-black font-normal rounded-full py-1 px-6 hover:bg-gray-100 transition-all h-14 md:h-16 whitespace-nowrap shadow-md active:scale-95">
+             <button className="w-full md:w-auto bg-white text-black font-normal rounded-full py-1 px-18 hover:bg-gray-100 transition-all h-14 md:h-16 whitespace-nowrap shadow-md active:scale-95">
                Send mail
              </button>
 
@@ -41,7 +41,7 @@ const LastSection = () => {
       </div>
 
     
-      <div className="relative w-full h-[150px] md:h-[200px] mt-[-100px] md:mt-[-130px] z-10 overflow-hidden">
+      <div className="relative w-full h-[150px] md:h-[200px] mt-[-100px] md:mt-[-180px] z-10 overflow-hidden">
        
          <div className="absolute inset-0 z-0">
            <Image 
@@ -52,6 +52,7 @@ const LastSection = () => {
            />
          </div>
       </div>
+    
 
     </section>
   );
