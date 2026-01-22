@@ -42,37 +42,37 @@ export default function Home() {
         </div>
 
       
-        <div className="absolute bottom-1 left-0 w-full z-30 leading-[0] transform translate-y-1/2">
+        <div className="absolute bottom-0.5 left-0 w-full z-30 leading-[0] transform translate-y-1/2">
           <Image 
             src="/tap.svg" 
             alt="Measuring Tape"
             width={1920} 
             height={120}
-            className="w-full h-auto object-cover min-h-[78px]" 
+            className="w-full h-auto object-cover min-h-[79px]" 
           />
         </div>
 
       </div>
 
       
-      <div className="relative bg-white w-full z-20 pt-24 pb-10 px-6 flex flex-col items-center text-center">
+      <div className="relative bg-white w-full z-20 pt-24 pb-0 px-6 flex flex-col items-center text-center mb-0">
         
         <p className="max-w-4xl text-black text-lg md:text-2xl leading-relaxed font-medium mb-10">
-          At Elvira, we don’t just make clothes we craft attire that inspires confidence and 
+          At Elvira, we don’t just make clothes we craft attire that as inspires and confidence
           comfort. With you in every chapter, our collections celebrate 
           each milestone of your journey.
         </p>
 
-        <button className="flex items-center gap-4 bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-all group">
-          <span className="text-lg">Read more</span>
-          <div className="bg-yellow-400 p-2 rounded-full text-black group-hover:scale-110 transition-transform">
-            <ChevronRight size={20} />
-          </div>
-        </button>
+        <button className="group flex items-center bg-black text-white rounded-full pl-4 pr-2 py-1 hover:bg-gray-800 transition-all">
+        <span className="text-lg font-medium mr-3">Read more</span>
+        <div className="w-12 h-12 bg-[#F2C94C] rounded-full flex items-center justify-center text-black group-hover:scale-110 transition-transform">
+          <ChevronRight size={20} strokeWidth={2.5} />
+        </div>
+      </button>
 
-        <div className="mt-19 flex items-center gap-2 text-yellow-600 cursor-pointer hover:text-yellow-700 transition">
+        <div className="mt-20 flex items-center gap-2 text-yellow-600 cursor-pointer hover:text-yellow-700 transition">
           <Sparkles size={20} />
-          <span className="text-lg font-medium">More from this categories</span>
+          <span className="text-[15px] font-sans">More from this categories</span>
           
         </div>
       </div>

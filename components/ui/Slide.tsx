@@ -5,7 +5,7 @@ import { ChevronRight, Sparkles } from 'lucide-react';
 
 export default function Slide() {
   return (
-    <section className="w-full bg-white py-12 flex flex-col items-center overflow-hidden font-sans">
+    <section className="w-full bg-white py-12 flex flex-col items-center overflow-hidden font-sans mt-0">
       
       
 

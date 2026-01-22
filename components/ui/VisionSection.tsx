@@ -7,6 +7,22 @@ export default function VisionSection() {
   return (
     <section className="relative w-full bg-white py-20 px-6 md:px-16 overflow-hidden">
       
+      <div 
+        className="absolute inset-0 z-10 pointer-events-none"
+        style={{ 
+          clipPath: 'polygon(0 0, 250px 0, 250px 250px, 0 250px)' 
+        }}
+      >
+         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[100%]">
+            <Image 
+              src="/tap.svg" 
+              alt="Corner Tape"
+              fill
+              className="object-contain rotate-[28deg]"
+            />
+         </div>
+      </div>
+
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[100%] z-0 pointer-events-none opacity-[0.08]">
          <Image 
            src="/tap.svg" 
@@ -16,12 +32,10 @@ export default function VisionSection() {
          />
       </div>
 
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center relative z-10">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center relative z-20">
         
-      
+        {/* Left Side: Images */}
         <div className="relative h-[500px] w-full">
-           
-       
            <div className="absolute top-0 left-0 w-[65%] h-[400px] rounded-[30px] overflow-hidden shadow-lg z-10">
              <Image
                src="/vision1.png" 
@@ -31,7 +45,6 @@ export default function VisionSection() {
              />
            </div>
 
-           
            <div className="absolute bottom-0 right-0 w-[65%] h-[300px] rounded-[30px] overflow-hidden shadow-2xl z-20 border-[1px] border-white">
              <Image
                src="/vision2.png" 
@@ -42,10 +55,8 @@ export default function VisionSection() {
            </div>
         </div>
 
-  
+        
         <div className="flex flex-col justify-center space-y-6">
-           
-       
            <div className="flex items-center gap-2">
              <Sparkles className="w-5 h-5 text-black" />
              <span className="text-black text-base font-medium">Our vision</span>
@@ -57,14 +68,12 @@ export default function VisionSection() {
              deliver innovation, quality, and value with every order, making the process
            </h2>
 
-        
            <div className="pt-2 ">
              <p className="text-gray-700 text-sm md:text-sm font-light leading-relaxed max-w-lg">
                seamless for our customers. Our goal is to build long-lasting relationships by 
                consistently exceeding expectations
              </p>
            </div>
-
         </div>
 
       </div>

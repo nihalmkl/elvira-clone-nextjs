@@ -73,11 +73,11 @@ export default function WhyChooseUs() {
 
    
       <div className="flex justify-center">
-        <button className="flex items-center gap-4 bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-all group">
+        <button className="flex items-center gap-4 bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition-all group">
           <span className="text-lg font-medium">Read more</span>
-          <div className="bg-yellow-400 p-2 rounded-full text-black group-hover:scale-110 transition-transform">
-            <ChevronRight size={20} />
-          </div>
+          <div className="w-12 h-12 bg-[#F2C94C] rounded-full flex items-center justify-center text-black group-hover:scale-110 transition-transform">
+          <ChevronRight size={20} strokeWidth={2.5} />
+        </div>
         </button>
       </div>
 

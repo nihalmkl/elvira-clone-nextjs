@@ -16,10 +16,10 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, iconSrc, 
         ${isHighlight ? 'bg-[#F2C94C]' : 'bg-white shadow-sm'}
       `}
     >
-      {/* Main Flex Container: Aligns Icon (Left) and Content (Right) side-by-side */}
+      
       <div className="flex items-start gap-3">
         
-        {/* Left Side: Icon Box */}
+       
         <div 
           className={`
             w-10 h-10 rounded-xl flex items-center justify-center shrink-0
@@ -35,7 +35,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, iconSrc, 
           />
         </div>
 
-        {/* Right Side: Text Stack (Heading + Description) */}
+      
         <div className="flex flex-col gap-1.5 pt-0.5">
           <h3 className="text-[16px] font-normal leading-tight text-black">
             {title}

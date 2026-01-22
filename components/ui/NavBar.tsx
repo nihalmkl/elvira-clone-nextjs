@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import Image from 'next/image';
-import { Phone, PhoneCall } from 'lucide-react'; 
+import { PhoneCall } from 'lucide-react'; 
 
 const Navbar = () => {
   const navLinks = [
@@ -14,7 +14,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-50 py-5 px-12 bg-transparent border-b-[1px] border-gray-400 ">
+    <nav className="absolute top-0 left-0 w-full z-50 py-5 px-12 bg-transparent border-b border-white/20 ">
       <div className="container mx-auto flex justify-between items-center">
         
         <Link href="/">
