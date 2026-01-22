@@ -7,11 +7,7 @@ export default function Slide() {
   return (
     <section className="w-full bg-white py-12 flex flex-col items-center overflow-hidden font-sans">
       
-      {/* --- Top Header Section --- */}
-      <div className="flex items-center gap-2 mb-10">
-        <Sparkles className="w-5 h-5 text-black" />
-        <span className="text-black text-lg font-medium">More from this categories</span>
-      </div>
+      
 
       <div className="flex w-full max-w-[1500px] h-[400px] md:h-[400px] px-4 md:px-0 gap-4 md:gap-6 items-center justify-center">
         
