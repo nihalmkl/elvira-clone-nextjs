@@ -46,16 +46,13 @@ export default function DarkSection() {
         </h2>
       </div>
 
-      {/* --- Process Steps Container --- */}
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 md:gap-4 relative">
         
-        {/* Render each step and a connecting line between them */}
         {steps.map((step, index) => (
           <React.Fragment key={step.id}>
             
             <ProcessCircle {...step} />
             
-            {/* Add a dashed line between steps, but not after the last one */}
             {index < steps.length - 1 && (
               <div className="hidden md:block flex-grow h-px border-t-2 border-dashed border-yellow-400/50 mx-4 relative top-[-30px] z-0"></div>
             )}
@@ -68,7 +65,7 @@ export default function DarkSection() {
       {/* --- Bottom Button --- */}
       <div className="flex justify-center mt-20">
         <button className="flex items-center gap-2 bg-white pl-6 pr-2 py-2 rounded-full hover:bg-gray-100 transition-all group">
-          <span className="text-black font-semibold text-lg">Read More</span>
+          <span className="text-black font-normal text-md">Read More</span>
           <div className="bg-yellow-400 p-3 rounded-full text-black group-hover:scale-105 transition-transform">
             <ChevronRight size={24} />
           </div>

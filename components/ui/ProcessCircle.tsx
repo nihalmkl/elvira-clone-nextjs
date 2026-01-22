@@ -31,7 +31,7 @@ const ProcessCircle = ({ id, title, iconSrc, isHighlighted = false }: { id: stri
       </div>
 
       {/* Step Title */}
-      <h3 className="text-white text-lg md:text-xl font-medium mt-6 max-w-[180px]">
+      <h3 className="text-white text-lg md:text-sm font-medium mt-6 max-w-[180px]">
         {title}
       </h3>
     </div>
