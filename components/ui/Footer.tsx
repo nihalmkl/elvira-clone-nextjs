@@ -5,13 +5,12 @@ import { Instagram, Facebook, Linkedin, Twitter } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <div className="relative w-full bg-white font-sans">
+    <div className="relative w-full bg-white font-sans border-t-1 border-gray-900">
       <footer className="relative w-full bg-black pt-16 pb-0 mt-0 overflow-hidden">
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20 text-white">
-
            <div className="space-y-6">
-              {/* Logo SVG */}
+              
               <div className="w-32 h-24 relative">
                  <Image src="/logo.svg" alt="Elvira Logo" fill className="object-contain object-left"/>
               </div>

@@ -27,12 +27,12 @@ const LastSection = () => {
                <input 
                  type="email" 
                  placeholder="Please enter the mail address" 
-                 className="w-full bg-black text-white placeholder-gray-500 rounded-full py-2 px-9 outline-none focus:ring-2 focus:ring-yellow-400/50 h-14 md:h-16"
+                 className="w-full bg-black text-white placeholder-gray-500 rounded-full py-1 px-10 outline-none focus:ring-2 focus:ring-yellow-400/50 h-14 md:h-16"
                />
              </div>
 
              
-             <button className="w-full md:w-auto bg-white text-black font-normal rounded-full py-2 px-10 hover:bg-gray-100 transition-all h-14 md:h-16 whitespace-nowrap shadow-md active:scale-95">
+             <button className="w-full md:w-auto bg-white text-black font-normal rounded-full py-1 px-6 hover:bg-gray-100 transition-all h-14 md:h-16 whitespace-nowrap shadow-md active:scale-95">
                Send mail
              </button>
 
