@@ -12,11 +12,14 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, iconSrc, 
   return (
     <div 
       className={`
-        relative p-6 rounded-[24px] flex flex-col gap-1 h-full transition-transform hover:scale-[1.01]
+        relative px-5 py-3 rounded-[18px] h-full transition-transform hover:scale-[1.01]
         ${isHighlight ? 'bg-[#F2C94C]' : 'bg-white shadow-sm'}
       `}
     >
-      <div className="flex items-center gap-3">
+      {/* Main Flex Container: Aligns Icon (Left) and Content (Right) side-by-side */}
+      <div className="flex items-start gap-3">
+        
+        {/* Left Side: Icon Box */}
         <div 
           className={`
             w-10 h-10 rounded-xl flex items-center justify-center shrink-0
@@ -32,18 +35,20 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, iconSrc, 
           />
         </div>
 
-        <h3 className="text-[15px] font-bold leading-tight text-black">
-          {title}
-        </h3>
-      </div>
+        {/* Right Side: Text Stack (Heading + Description) */}
+        <div className="flex flex-col gap-1.5 pt-0.5">
+          <h3 className="text-[16px] font-normal leading-tight text-black">
+            {title}
+          </h3>
 
-      <div className="flex flex-col">
-        <p className={`text-[11px] leading-[1.5] ${isHighlight ? 'text-black/90' : 'text-gray-700'}`}>
-          {description}
-          <span className="inline-block ml-1 font-bold text-black cursor-pointer hover:underline">
-            Read more
-          </span>
-        </p>
+          <p className={`text-[11px] font-base leading-[1.6] ${isHighlight ? 'text-black/90' : 'text-gray-700'}`}>
+            {description}
+            <span className="inline-block ml-1 font-bold text-black cursor-pointer hover:underline">
+              Read more
+            </span>
+          </p>
+        </div>
+        
       </div>
     </div>
   );

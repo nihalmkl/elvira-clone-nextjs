@@ -58,7 +58,7 @@ export default function VisionSection() {
            </h2>
 
         
-           <div className="pt-2 border-l-2 border-gray-200 pl-6">
+           <div className="pt-2 ">
              <p className="text-gray-700 text-sm md:text-sm font-light leading-relaxed max-w-lg">
                seamless for our customers. Our goal is to build long-lasting relationships by 
                consistently exceeding expectations
