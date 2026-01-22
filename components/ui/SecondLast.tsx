@@ -45,7 +45,7 @@ const SecondLast = () => {
              />
            </div>
 
-           <div className="absolute bottom-0 right-0 w-[55%] h-[250px] rounded-[30px] overflow-hidden shadow-2xl z-20 border-[8px] border-white">
+           <div className="absolute bottom-0 right-0 w-[55%] h-[250px] rounded-[30px] overflow-hidden shadow-2xl z-20 border-[1px] border-white">
              <Image
                src="/machine.png" 
                alt="Production machine"
