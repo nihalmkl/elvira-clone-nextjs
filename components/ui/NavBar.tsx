@@ -14,7 +14,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-50 p-6 bg-transparent border-b-[1px] border-gray-400 ">
+    <nav className="absolute top-0 left-0 w-full z-50 py-5 px-12 bg-transparent border-b-[1px] border-gray-400 ">
       <div className="container mx-auto flex justify-between items-center">
         
         {/* --- 1. LOGO SECTION --- */}
