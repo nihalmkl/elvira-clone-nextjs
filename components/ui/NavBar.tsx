@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import Image from 'next/image';
-import { Phone } from 'lucide-react'; 
+import { Phone, PhoneCall } from 'lucide-react'; 
 
 const Navbar = () => {
   const navLinks = [
@@ -47,12 +47,12 @@ const Navbar = () => {
      
         <div className="hidden md:flex">
           <button className="flex items-center bg-white rounded-full pl-5 pr-1 py-1.5 hover:bg-gray-100 transition shadow-sm">
-            <span className="text-black font-semibold text-sm mr-3">
+            <span className="text-black font-normal text-sm mr-3">
               Call us now
             </span>
-            <div className="bg-yellow-400 p-2 rounded-full flex items-center justify-center">
+            <div className="bg-yellow-400 p-3 rounded-full flex items-center justify-center">
               {/* Requires 'npm install lucide-react' */}
-              <Phone size={16} className="text-black fill-current" />
+              <PhoneCall size={17} className="text-black " />
             </div>
           </button>
         </div>
