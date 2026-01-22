@@ -1,21 +1,20 @@
 'use client'
 import React from 'react';
 
-import { Sparkles, ChevronRight } from 'lucide-react'; // Ensure you have installed lucide-react
+import { Sparkles, ChevronRight } from 'lucide-react';
 import ProcessCircle from './ProcessCircle';
 
-// Data for the four steps
 const steps = [
   {
     id: '01',
     title: 'Own Fabric Factory',
-    iconSrc: 'factory.svg', // Path to your SVG in /public/icons/
+    iconSrc: 'factory.svg', 
   },
   {
     id: '02',
     title: 'Own Production Unit',
     iconSrc: '/wheel.svg',
-    isHighlighted: true, // This triggers the glow effect
+    isHighlighted: true, 
   },
   {
     id: '03',
